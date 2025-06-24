@@ -57,5 +57,4 @@ smart_resume_match/
 
 ## 🔒 Security
     Your resume and job description are processed locally
-    OpenAI API key is stored securely via .env
     No data is saved or transmitted externally
