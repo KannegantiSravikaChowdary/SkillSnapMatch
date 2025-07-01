@@ -29,7 +29,7 @@ Empowering students with personalized, actionable resume improvement suggestions
 ## 🛠️ Setup Instructions
 
 1. **Clone the repo**
-2. 
+   
    ```bash
    
     git clone https://github.com/yourusername/SnapSkillMatch.git
@@ -65,8 +65,11 @@ Empowering students with personalized, actionable resume improvement suggestions
 📷 **Sample Output**
 
 ✅ Matched Skills: html, css, javascript, react
+
 ❌ Missing Skills: node.js, mongodb
+
 🎯 Match Score: 66%
+
 💡 AI Suggestions:
 
 
