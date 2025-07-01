@@ -1,3 +1,5 @@
 streamlit
-PyMuPDF
 openai
+python-dotenv
+PyMuPDF
+tqdm
