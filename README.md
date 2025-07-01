@@ -48,17 +48,16 @@ Empowering students with personalized, actionable resume improvement suggestions
    ```
 
  📷 **Sample Output**
-    
-    ✅ Matched Skills: html, css, javascript, react
-    ❌ Missing Skills: node.js, mongodb
-    🎯 Match Score: 66%
-    💡 AI Suggestions: 5 actionable bullet points to improve your resume
+ ✅ Matched Skills: html, css, javascript, react
+ ❌ Missing Skills: node.js, mongodb
+ 🎯 Match Score: 66%
+ 💡 AI Suggestions: 5 actionable bullet points to improve your resume
 
 👥 **Team Members**
 
-    1. Kanneganti Sravika Chowdary (22BQ1A4273)
-    2. Kopuri Praveen (22BQ1A4279)
-    3. Naruboina Vijaya Ganesh (22BQ1A42A1)
-    4. Mukkollu Navya Sree (22BQ1A4295)
+ 1. Kanneganti Sravika Chowdary (22BQ1A4273)
+ 2. Kopuri Praveen (22BQ1A4279)
+ 3. Naruboina Vijaya Ganesh (22BQ1A42A1)
+ 4. Mukkollu Navya Sree (22BQ1A4295)
 
 
