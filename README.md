@@ -1,64 +1,61 @@
-💼 Smart Resume Match
-Match resumes with job descriptions using AI, NLP, and smart skill analysis.
-Empowering students with personalized resume improvement suggestions.
+# 💼 Smart Resume Match
 
-🚀 Features
-📤 Upload Resume (PDF)
+Match resumes with job descriptions using **AI**, **NLP**, and **smart skill analysis**.  
+Empowering students with personalized, actionable resume improvement suggestions.
 
-📥 Upload Job Description (PDF)
+---
 
-📊 AI-powered Match Score (%)
+## 🚀 Features
 
-✅ Matched & ❌ Missing Skills Detection
+- 📤 Upload Resume (PDF)
+- 📥 Upload Job Description (PDF)
+- 📊 AI-powered Match Score (%)
+- ✅ Matched & ❌ Missing Skills Detection
+- 🎓 Education Qualification Match
+- ✨ Gemini AI Suggestions to Improve Resume
+- 🔒 Secure, Private, and Easy-to-Use
 
-🎓 Education Qualification Match
+---
 
-✨ Gemini AI Suggestions to Improve Resume
+## 🧠 Tech Stack
 
-🔒 Secure, Private, and Easy-to-Use
+- **Frontend**: Python + Streamlit  
+- **Text Parsing**: NLP + Regex  
+- **AI Resume Enhancer**: Google Generative AI (Gemini)  
+- **PDF Parsing**: PyMuPDF  
+- **Key Management**: dotenv
 
-🧠 Tech Stack
-Python + Streamlit (Frontend)
+---
 
-NLP + Regex (Text Extraction & Parsing)
+## 🛠️ Setup Instructions
 
-Google Generative AI (Gemini) (Resume Enhancer)
-
-PyMuPDF (PDF Parsing)
-
-dotenv (Key Management)
-
-🛠️ Setup Instructions
-Clone the repo:
-
-bash
-Copy
-Edit
+1. **Clone the repo**  
 git clone https://github.com/yourusername/smart-resume-match.git
 cd smart-resume-match
-Install dependencies:
 
-bash
-Copy
-Edit
+2. **Install dependencies**
 pip install -r requirements.txt
-Add your Gemini API key:
 
-Create a .env file:
+4. **Add your Gemini API key**
+Create a .env file and add:
 
-ini
-Copy
-Edit
 GOOGLE_API_KEY="your-api-key"
-Run the app:
 
-bash
-Copy
-Edit
+5. **Run the app**
 streamlit run app.py
-📷 Sample Output
-✅ Matched Skills: html, css, javascript, react
-❌ Missing Skills: node.js, mongodb
-🎯 Match Score: 66%
-💡 AI Suggestions: 5 actionable bullet points to improve your resume.
 
+📷 Sample Output
+
+✅ Matched Skills: html, css, javascript, react
+
+❌ Missing Skills: node.js, mongodb
+
+🎯 Match Score: 66%
+
+💡 AI Suggestions: 5 actionable bullet points to improve your resume
+
+👥 Team Members
+    1. Kanneganti Sravika Chowdary (22BQ1A4273)
+    2. Kopuri Praveen (22BQ1A4279)
+    3. Naruboina Vijaya Ganesh (22BQ1A42A1)
+    4. Mukkollu Navya Sree (22BQ1A4295)
