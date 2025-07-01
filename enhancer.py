@@ -8,19 +8,38 @@ genai.configure(api_key=api_key)
 model = genai.GenerativeModel("gemini-2.5-pro")  # or gemini-1.5-flash
 
 
-def suggest_resume_improvements(missing_skills):
-    if not missing_skills:
-        return "✅ Your resume is strong and aligns well with the job description!"
 
-    prompt = (
-        "Given the following missing skills in a resume, suggest improvements in a professional tone.\n"
-        f"Missing skills: {', '.join(missing_skills)}\n"
-        "Response should be a short, actionable bullet list."
-    )
+def enhance_resume(missing_skills):
+    """
+    Returns AI-generated bullet point suggestions for missing skills.
+    """
+    if not missing_skills:
+        return "✅ Your resume aligns perfectly with the job description."
+
+    prompt = f"""
+You are an expert resume coach. A student is missing the following skills: {', '.join(missing_skills)}.
+Suggest exactly 5 impactful, single-line bullet points they can add to their resume.
+Each point should:
+- Begin with a strong action verb.
+- Be student-friendly (project-based or learning-based).
+- Use simple, concise language.
+Respond only with 5 bullet points in Markdown format. Do not add any explanation, tips, or headings.
+"""
 
     try:
         response = model.generate_content(prompt)
-        return response.text.strip()
+        if response and response.text:
+            return "💡 *AI Suggestions to Improve Resume:*\n\n" + response.text.strip()
+    except Exception:
+        pass
 
-    except Exception as e:
-        return f"⚠️ Could not generate tips. Error: {str(e)}"
+    # Fallback
+    fallback = "\n".join([
+        f"- Built a simple project using {skill} and documented it in resume.",
+        f"- Learned {skill} through online tutorials and applied it in coursework.",
+        f"- Used {skill} in a basic app for solving student-related problem.",
+        f"- Explored {skill} by contributing to an open-source GitHub repo.",
+        f"- Mentioned {skill} under Technical Skills after completing a course."
+    ] for skill in missing_skills)
+
+    return "💡 *AI Suggestions to Improve Resume:*\n\n" + "\n".join(fallback)
