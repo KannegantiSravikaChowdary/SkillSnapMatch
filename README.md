@@ -30,31 +30,40 @@ Empowering students with personalized, actionable resume improvement suggestions
 
 1. **Clone the repo**
 2. 
-   ```bash 
+   ```bash
+   
     git clone https://github.com/yourusername/SnapSkillMatch.git
-    cd SnapSkillMatch 
+    cd SnapSkillMatch
+   
    ```
    
 3. **Install dependencies**
  
    ```bash
-    pip install -r requirements.txt 
+   
+    pip install -r requirements.txt
+   
    ```
    
 4. **Add your Gemini API key**
 
    ```bash
+   
     Create a .env file and add:
-    GOOGLE_API_KEY="your-api-key" 
+    GOOGLE_API_KEY="your-api-key"
+   
    ```
 5. **Run the app**
    
    ```bash
+   
     streamlit run app.py
+   
    ```
 
 
 📷 **Sample Output**
+
 ✅ Matched Skills: html, css, javascript, react
 ❌ Missing Skills: node.js, mongodb
 🎯 Match Score: 66%
