@@ -47,7 +47,7 @@ Empowering students with personalized, actionable resume improvement suggestions
    ```bash
     streamlit run app.py
 
-📷 Sample Output
+ 📷 **Sample Output**
     ```bash
     ✅ Matched Skills: html, css, javascript, react
 
@@ -58,6 +58,7 @@ Empowering students with personalized, actionable resume improvement suggestions
     💡 AI Suggestions: 5 actionable bullet points to improve your resume
 
 👥 **Team Members**
+
     1. Kanneganti Sravika Chowdary (22BQ1A4273)
 
     2. Kopuri Praveen (22BQ1A4279)
