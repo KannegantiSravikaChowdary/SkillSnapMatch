@@ -31,24 +31,24 @@ Empowering students with personalized, actionable resume improvement suggestions
 
 1. **Clone the repo**
    ```bash 
-    git clone https://github.com/yourusername/smart-resume-match.git
-    cd smart-resume-match
-
+    git clone https://github.com/yourusername/SnapSkillMatch.git
+    cd SnapSkillMatch
+   ```
 3. **Install dependencies**
    ```bash
-    pip install -r requirements.txt
-
+    pip install -r requirements.txt 
+   ```
 5. **Add your Gemini API key**
    ```bash
     Create a .env file and add:
-    GOOGLE_API_KEY="your-api-key"
+    GOOGLE_API_KEY="your-api-key" ```
 
 5. **Run the app**
    ```bash
-    streamlit run app.py
+    streamlit run app.py ```
 
  📷 **Sample Output**
-    ```bash
+    
     ✅ Matched Skills: html, css, javascript, react
 
     ❌ Missing Skills: node.js, mongodb
@@ -65,6 +65,6 @@ Empowering students with personalized, actionable resume improvement suggestions
 
     3. Naruboina Vijaya Ganesh (22BQ1A42A1)
 
-    4. Mukkollu Navya Sree (22BQ1A4295)**
+    4. Mukkollu Navya Sree (22BQ1A4295)
 
 
