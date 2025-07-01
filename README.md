@@ -24,34 +24,42 @@ Empowering students with personalized, actionable resume improvement suggestions
 - **PDF Parsing**: PyMuPDF  
 - **Key Management**: dotenv
 
----
+
 
 ## 🛠️ Setup Instructions
 
 1. **Clone the repo**
+2. 
    ```bash 
     git clone https://github.com/yourusername/SnapSkillMatch.git
     cd SnapSkillMatch 
    ```
+   
 3. **Install dependencies**
+ 
    ```bash
     pip install -r requirements.txt 
    ```
-5. **Add your Gemini API key**
+   
+4. **Add your Gemini API key**
+
    ```bash
     Create a .env file and add:
     GOOGLE_API_KEY="your-api-key" 
    ```
 5. **Run the app**
+   
    ```bash
     streamlit run app.py
    ```
 
- 📷 **Sample Output**
- ✅ Matched Skills: html, css, javascript, react
- ❌ Missing Skills: node.js, mongodb
- 🎯 Match Score: 66%
- 💡 AI Suggestions: 5 actionable bullet points to improve your resume
+
+📷 **Sample Output**
+✅ Matched Skills: html, css, javascript, react
+❌ Missing Skills: node.js, mongodb
+🎯 Match Score: 66%
+💡 AI Suggestions:
+
 
 👥 **Team Members**
 
