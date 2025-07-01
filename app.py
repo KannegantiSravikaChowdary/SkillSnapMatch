@@ -72,7 +72,7 @@ st.markdown("### ✨ AI-Powered Resume Improvement Suggestions")
 with st.expander("💡 Click to View Suggestions"):
     with st.spinner("Generating smart suggestions..."):
         try:
-            tips = suggest_resume_improvements(missing)
+            tips = enhance_resume(missing)
             st.markdown(f"<div style='font-size:16px; line-height:1.6;'>{tips}</div>", unsafe_allow_html=True)
         except Exception as e:
             st.warning(f"⚠️ AI suggestion failed: {e}")
