@@ -1,6 +1,6 @@
 import streamlit as st
 from matcher import calculate_match
-from enhancer import suggest_resume_improvements
+from enhancer import enhance_resume
 
 st.set_page_config(page_title="Smart Resume Match", layout="centered")
 
