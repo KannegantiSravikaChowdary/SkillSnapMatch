@@ -29,33 +29,41 @@ Empowering students with personalized, actionable resume improvement suggestions
 
 ## 🛠️ Setup Instructions
 
-1. **Clone the repo**  
-git clone https://github.com/yourusername/smart-resume-match.git
-cd smart-resume-match
+1. **Clone the repo**
+   ```bash 
+    git clone https://github.com/yourusername/smart-resume-match.git
+    cd smart-resume-match
 
-2. **Install dependencies**
-pip install -r requirements.txt
+3. **Install dependencies**
+   ```bash
+    pip install -r requirements.txt
 
-4. **Add your Gemini API key**
-Create a .env file and add:
-
-GOOGLE_API_KEY="your-api-key"
+5. **Add your Gemini API key**
+   ```bash
+    Create a .env file and add:
+    GOOGLE_API_KEY="your-api-key"
 
 5. **Run the app**
-streamlit run app.py
+   ```bash
+    streamlit run app.py
 
 📷 Sample Output
+    ```bash
+    ✅ Matched Skills: html, css, javascript, react
 
-✅ Matched Skills: html, css, javascript, react
+    ❌ Missing Skills: node.js, mongodb
 
-❌ Missing Skills: node.js, mongodb
+    🎯 Match Score: 66%
 
-🎯 Match Score: 66%
+    💡 AI Suggestions: 5 actionable bullet points to improve your resume
 
-💡 AI Suggestions: 5 actionable bullet points to improve your resume
-
-👥 Team Members
+👥 **Team Members**
     1. Kanneganti Sravika Chowdary (22BQ1A4273)
+
     2. Kopuri Praveen (22BQ1A4279)
+
     3. Naruboina Vijaya Ganesh (22BQ1A42A1)
-    4. Mukkollu Navya Sree (22BQ1A4295)
+
+    4. Mukkollu Navya Sree (22BQ1A4295)**
+
+
